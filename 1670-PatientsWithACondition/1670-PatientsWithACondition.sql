@@ -1,0 +1,5 @@
+-- Last updated: 8/11/2026, 2:52:14 PM
+# Write your MySQL query statement below
+SELECT patient_id, patient_name, conditions
+FROM Patients
+WHERE conditions LIKE 'DIAB1%' OR conditions LIKE '% DIAB1%'
